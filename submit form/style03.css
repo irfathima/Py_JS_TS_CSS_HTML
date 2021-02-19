@@ -1,0 +1,205 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: #EBF3FB;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-card {
+    width: 50%;
+    margin: 4rem 0rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #24245C;
+    padding: 4rem 0rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.section-two {
+    background: white;
+    padding: 3rem 7rem;
+}
+
+.input {
+    border: none;
+    width: 100%;
+    display: block;
+    border-bottom: 2px #B4B4C7 solid;
+    padding: 0.75rem 0;
+    background: none;
+}
+
+.input:focus {
+    outline: none;
+    background: none;
+}
+
+.input-wrapper {
+    margin: 2rem 0rem;
+}
+
+.input-wrapper label {
+    font-weight: 500;
+    color: #24245C;
+}
+
+.btn {
+    width: 65%;
+    background: #24245C;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+    font-size: 1.20rem;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.5rem;
+}
+/*===================================================*/
+
+/* Ipad pro */
+@media only screen and (max-width: 1024px) {
+	.login-card {
+    width: 60%;    
+}
+	.input {
+   		padding:1rem 0;  
+}
+	.section-two {
+    	padding: 2.50rem 6rem;
+}
+
+
+
+/* Ipad */
+@media only screen and (max-width: 768px) {
+	.login-card {
+    	width: 80%;    
+}
+	.input {
+   		padding:1rem 0;  
+}
+	.section-two {
+    	padding: 2.50rem 6rem;
+}
+}
+
+
+/* iphone4 */
+@media only screen and (max-width: 540px) {
+	.login-card {
+    	width: 80%;    
+}
+	.input {
+   		padding:1rem 0;  
+}
+	.section-two {
+    	padding: 1rem 4rem;
+}   
+}
+
+
+/* Iphone 5s */
+@media only screen and (max-width: 420px) {
+ 	.login-card {
+    	width: 85%;    
+}
+	.input {
+   		padding:0.75rem 0;  
+}
+	.section-two {
+    	padding: 1.5rem 3rem;
+} 
+	.section-one {
+    	padding: 4rem 0rem;
+    	font-size: 1rem;
+}
+	.btn-wrapper {
+    	padding: 1rem 0rem;
+    	font-size: 1rem;
+	}
+
+	.btn {
+    	width: 50%;
+    	padding: 1rem 0.50rem;
+   }
+}
+
+
+/* Iphone 5s */
+@media only screen and (max-width: 360px) {
+   	.login-card {
+    	width: 90%;    
+}
+	.input {
+   		padding:0.55rem 0;  
+}
+	.section-two {
+    	padding: 1.5rem 2rem;
+} 
+	.section-one {
+    	padding: 4rem 0rem;
+    	font-size: 1rem;
+}
+	.btn-wrapper {
+    	padding: 1rem 0rem;
+    	font-size: 1rem;
+	}
+
+	.btn {
+    	width: 50%;
+    	padding: 1rem 0.50rem;
+   }
+}
+
+/* Iphone 5s */
+@media only screen and (max-width: 320px) {
+   	.login-card {
+    	width: 85%;    
+}
+	.input {
+   		padding:0.40rem 0;  
+}
+	.section-two {
+    	padding: 1.50rem 2rem;
+} 
+	.section-one {
+    	padding: 3rem 0rem;
+    	font-size: 1rem;
+}
+	.btn-wrapper {
+    	padding: 1rem 0rem;
+    	font-size: 1rem;
+	}
+
+	.btn {
+    	width: 50%;
+    	padding: 1rem 0.50rem;
+   }
+
+}

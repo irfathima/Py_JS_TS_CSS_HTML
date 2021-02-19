@@ -1,0 +1,153 @@
+body {
+    background: #A897FB;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato;
+}
+
+.profile-card {
+    background: #FFF;
+    border-radius: 15px;
+    width: 25%;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.section-one {
+    display: flex;
+    border-bottom: 2px solid #ECEAFA;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    position: relative;
+}
+
+.image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 0.75rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.icon {
+    height: 1.75rem;
+    width: 1.75rem;
+    color: gray;
+}
+
+.icon-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding:.3rem;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-wrapper:hover {
+    background: #ECEAFA;
+}
+
+.text-one {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+/*---------------------------------------*/
+.icon-two {
+    height: 25px;
+    width: 25px;
+    margin-right: 0.65rem;
+    color: #4E5263;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.section-two {
+    padding: 0.55rem;
+}
+
+.first:hover {
+    background: #ECEAFA;
+    border-radius: 15px;
+}
+
+/* ==================================== Media Quries ==========================================*/
+
+/* Ipad pro */
+@media only screen and (max-width: 1024px) {
+  .profile-card {
+        width: 35%;
+    }
+}
+
+
+/* Ipad */
+@media only screen and (max-width: 768px) {
+  .profile-card {
+        width: 55%;
+    }
+}
+
+
+/* iphone4 */
+@media only screen and (max-width: 540px) {
+   .profile-card {
+        width: 70%;
+    }
+}
+
+
+/* Iphone 5s */
+@media only screen and (max-width: 420px) {
+  .profile-card {
+        width: 80%;
+    }
+}
+
+
+/* Iphone 5s */
+@media only screen and (max-width: 360px) {
+  .profile-card {
+        width: 85%;
+    }
+}
+
+/* Iphone 5s */
+@media only screen and (max-width: 360px) {
+  .profile-card {
+        width: 95%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+
+    .icon {
+        height: 1.30rem;
+        width: 1.30rem;
+        color: gray;
+    }
+
+    .image {
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    margin-right: 0.75rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+}
+

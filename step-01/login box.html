@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+			margin: 0px;
+			padding: 0px;
+			background: url('./image/cup.jpg');
+			font-family: sans-serif;
+		}
+		.logibox{
+			width: 320px;
+			height: 420px;
+			background: #000;
+			color: #fff;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			box-sizing: border-box;
+			transform: translate(-50%,-50%);
+			padding: 70px 30px;
+
+		}
+		.abatar{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			position: absolute;
+			top: -12%;
+			left: 35%;
+		}
+		h1{
+			margin: 0px;
+			padding: 0 0 20px;
+			text-align: center;
+			font-size: 22px;
+		}
+		.logibox p{
+			margin: 0px;
+			padding: 0px;
+			font-weight: bold; 
+		}
+		.logibox input{
+			width: 100%;
+			margin-bottom: 20px;
+			color: white;
+			padding:0.75rem 0rem;
+		}
+		.logibox input[type="text"], input[type="password"]{
+			border: none;
+			border-bottom: 1px solid #fff;
+			background: transparent;
+			outline: none;
+			height: 40px
+			color: #fff;
+			font-size: 16px;  
+		}
+		.logibox input[type="submit"]{
+			border: none;
+			outline: none;
+			height: 40px;
+			background: #fb2626;
+			color: #fff;
+			font-size: 18px;
+			border-radius: 20px;
+
+		}
+		.logibox input[type="submit"]:hover{
+			cursor: pointer;
+			background: #ffc107;
+			color: #000;
+		}
+		.logibox a{
+			text-decoration: none;
+			font-size: 12px;
+			line-height: 20px;
+			color: darkgray;
+		}
+		.logibox a:hover{
+			color: #ffc107;  
+		}
+
+	</style>
+</head>
+
+<body>
+    <div class="logibox">
+        <img src="./image/images.png" alt="photo" class="abatar">
+        <h1>Login</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" placeholder="Enter Your Username">
+            <p>Password</p>
+            <input type="password" placeholder="Enter Your Password">
+            <input type="submit" value="Login">
+            <a href="#">Lost your password?</a><br>
+            <a href="#">Don't have an account?</a>
+    </div>
+</body>
+
+</html>

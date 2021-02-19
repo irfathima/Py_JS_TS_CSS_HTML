@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background:lightgreen;
+	padding:0.7rem;
+	color:black;
+}
+.list{
+	display: flex;
+}
+
+.list li {
+	list-style:none;
+	padding: 0rem 1rem;
+}
+
+.list li a {
+	text-decoration:none;
+	color:black;
+	padding: 0.3rem 0.6rem;
+
+}
+.list li a:hover {
+	background-color:grey;
+}
+
+.logo {
+	font-weight:700;
+	letter-spacing: 1rem;
+	font-size: 2rem;
+}
+/*---------------------------------
